@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F95665941F6A66830023BE14 /* ProgessTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95665931F6A66830023BE14 /* ProgessTextView.m */; };
 		F95E80B61F691C3D0080BB24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80B51F691C3D0080BB24 /* main.m */; };
 		F95E80B91F691C3D0080BB24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80B81F691C3D0080BB24 /* AppDelegate.m */; };
 		F95E80BC1F691C3D0080BB24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80BB1F691C3D0080BB24 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		F95E80C41F691C3D0080BB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95E80C21F691C3D0080BB24 /* LaunchScreen.storyboard */; };
 		F95E80CF1F691C3D0080BB24 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80CE1F691C3D0080BB24 /* DemoTests.m */; };
 		F95E80DA1F691C3D0080BB24 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80D91F691C3D0080BB24 /* DemoUITests.m */; };
+		F95E80E91F691C540080BB24 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E80E81F691C540080BB24 /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F95665921F6A66830023BE14 /* ProgessTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgessTextView.h; sourceTree = "<group>"; };
+		F95665931F6A66830023BE14 /* ProgessTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgessTextView.m; sourceTree = "<group>"; };
 		F95E80B11F691C3D0080BB24 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E80B51F691C3D0080BB24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F95E80B71F691C3D0080BB24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		F95E80D51F691C3D0080BB24 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E80D91F691C3D0080BB24 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		F95E80DB1F691C3D0080BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E80E71F691C540080BB24 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		F95E80E81F691C540080BB24 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				F95E80C21F691C3D0080BB24 /* LaunchScreen.storyboard */,
 				F95E80C51F691C3D0080BB24 /* Info.plist */,
 				F95E80B41F691C3D0080BB24 /* Supporting Files */,
+				F95E80E71F691C540080BB24 /* ProgressView.h */,
+				F95E80E81F691C540080BB24 /* ProgressView.m */,
+				F95665921F6A66830023BE14 /* ProgessTextView.h */,
+				F95665931F6A66830023BE14 /* ProgessTextView.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -273,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95665941F6A66830023BE14 /* ProgessTextView.m in Sources */,
 				F95E80BC1F691C3D0080BB24 /* ViewController.m in Sources */,
+				F95E80E91F691C540080BB24 /* ProgressView.m in Sources */,
 				F95E80B91F691C3D0080BB24 /* AppDelegate.m in Sources */,
 				F95E80B61F691C3D0080BB24 /* main.m in Sources */,
 			);
@@ -505,6 +517,7 @@
 				F95E80E01F691C3D0080BB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95E80E11F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				F95E80E31F691C3D0080BB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95E80E41F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				F95E80E61F691C3D0080BB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
