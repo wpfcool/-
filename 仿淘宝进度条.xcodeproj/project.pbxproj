@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F95665921F6A66830023BE14 /* ProgessTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgessTextView.h; sourceTree = "<group>"; };
 		F95665931F6A66830023BE14 /* ProgessTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgessTextView.m; sourceTree = "<group>"; };
-		F95E80B11F691C3D0080BB24 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E80B11F691C3D0080BB24 /* 仿淘宝进度条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿淘宝进度条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E80B51F691C3D0080BB24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F95E80B71F691C3D0080BB24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F95E80B81F691C3D0080BB24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,10 +49,10 @@
 		F95E80C01F691C3D0080BB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F95E80C31F691C3D0080BB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F95E80C51F691C3D0080BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F95E80CA1F691C3D0080BB24 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E80CA1F691C3D0080BB24 /* 仿淘宝进度条Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿淘宝进度条Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E80CE1F691C3D0080BB24 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
 		F95E80D01F691C3D0080BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F95E80D51F691C3D0080BB24 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E80D51F691C3D0080BB24 /* 仿淘宝进度条UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿淘宝进度条UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95E80D91F691C3D0080BB24 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		F95E80DB1F691C3D0080BB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95E80E71F691C540080BB24 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		F95E80A81F691C3D0080BB24 = {
 			isa = PBXGroup;
 			children = (
-				F95E80B31F691C3D0080BB24 /* Demo */,
+				F95E80B31F691C3D0080BB24 /* 仿淘宝进度条 */,
 				F95E80CD1F691C3D0080BB24 /* DemoTests */,
 				F95E80D81F691C3D0080BB24 /* DemoUITests */,
 				F95E80B21F691C3D0080BB24 /* Products */,
@@ -97,14 +97,14 @@
 		F95E80B21F691C3D0080BB24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F95E80B11F691C3D0080BB24 /* Demo.app */,
-				F95E80CA1F691C3D0080BB24 /* DemoTests.xctest */,
-				F95E80D51F691C3D0080BB24 /* DemoUITests.xctest */,
+				F95E80B11F691C3D0080BB24 /* 仿淘宝进度条.app */,
+				F95E80CA1F691C3D0080BB24 /* 仿淘宝进度条Tests.xctest */,
+				F95E80D51F691C3D0080BB24 /* 仿淘宝进度条UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F95E80B31F691C3D0080BB24 /* Demo */ = {
+		F95E80B31F691C3D0080BB24 /* 仿淘宝进度条 */ = {
 			isa = PBXGroup;
 			children = (
 				F95E80B71F691C3D0080BB24 /* AppDelegate.h */,
@@ -121,6 +121,7 @@
 				F95665921F6A66830023BE14 /* ProgessTextView.h */,
 				F95665931F6A66830023BE14 /* ProgessTextView.m */,
 			);
+			name = "仿淘宝进度条";
 			path = Demo;
 			sourceTree = "<group>";
 		};
@@ -153,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F95E80B01F691C3D0080BB24 /* Demo */ = {
+		F95E80B01F691C3D0080BB24 /* 仿淘宝进度条 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95E80DE1F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = F95E80DE1F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条" */;
 			buildPhases = (
 				F95E80AD1F691C3D0080BB24 /* Sources */,
 				F95E80AE1F691C3D0080BB24 /* Frameworks */,
@@ -165,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = "仿淘宝进度条";
 			productName = Demo;
-			productReference = F95E80B11F691C3D0080BB24 /* Demo.app */;
+			productReference = F95E80B11F691C3D0080BB24 /* 仿淘宝进度条.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F95E80C91F691C3D0080BB24 /* DemoTests */ = {
+		F95E80C91F691C3D0080BB24 /* 仿淘宝进度条Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95E80E11F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildConfigurationList = F95E80E11F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条Tests" */;
 			buildPhases = (
 				F95E80C61F691C3D0080BB24 /* Sources */,
 				F95E80C71F691C3D0080BB24 /* Frameworks */,
@@ -183,14 +184,14 @@
 			dependencies = (
 				F95E80CC1F691C3D0080BB24 /* PBXTargetDependency */,
 			);
-			name = DemoTests;
+			name = "仿淘宝进度条Tests";
 			productName = DemoTests;
-			productReference = F95E80CA1F691C3D0080BB24 /* DemoTests.xctest */;
+			productReference = F95E80CA1F691C3D0080BB24 /* 仿淘宝进度条Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F95E80D41F691C3D0080BB24 /* DemoUITests */ = {
+		F95E80D41F691C3D0080BB24 /* 仿淘宝进度条UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95E80E41F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
+			buildConfigurationList = F95E80E41F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条UITests" */;
 			buildPhases = (
 				F95E80D11F691C3D0080BB24 /* Sources */,
 				F95E80D21F691C3D0080BB24 /* Frameworks */,
@@ -201,9 +202,9 @@
 			dependencies = (
 				F95E80D71F691C3D0080BB24 /* PBXTargetDependency */,
 			);
-			name = DemoUITests;
+			name = "仿淘宝进度条UITests";
 			productName = DemoUITests;
-			productReference = F95E80D51F691C3D0080BB24 /* DemoUITests.xctest */;
+			productReference = F95E80D51F691C3D0080BB24 /* 仿淘宝进度条UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +232,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F95E80AC1F691C3D0080BB24 /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = F95E80AC1F691C3D0080BB24 /* Build configuration list for PBXProject "仿淘宝进度条" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -244,9 +245,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F95E80B01F691C3D0080BB24 /* Demo */,
-				F95E80C91F691C3D0080BB24 /* DemoTests */,
-				F95E80D41F691C3D0080BB24 /* DemoUITests */,
+				F95E80B01F691C3D0080BB24 /* 仿淘宝进度条 */,
+				F95E80C91F691C3D0080BB24 /* 仿淘宝进度条Tests */,
+				F95E80D41F691C3D0080BB24 /* 仿淘宝进度条UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +313,12 @@
 /* Begin PBXTargetDependency section */
 		F95E80CC1F691C3D0080BB24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95E80B01F691C3D0080BB24 /* Demo */;
+			target = F95E80B01F691C3D0080BB24 /* 仿淘宝进度条 */;
 			targetProxy = F95E80CB1F691C3D0080BB24 /* PBXContainerItemProxy */;
 		};
 		F95E80D71F691C3D0080BB24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95E80B01F691C3D0080BB24 /* Demo */;
+			target = F95E80B01F691C3D0080BB24 /* 仿淘宝进度条 */;
 			targetProxy = F95E80D61F691C3D0080BB24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxfff.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿淘宝进度条.app/仿淘宝进度条";
 			};
 			name = Debug;
 		};
@@ -472,7 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxfff.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿淘宝进度条.app/仿淘宝进度条";
 			};
 			name = Release;
 		};
@@ -501,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F95E80AC1F691C3D0080BB24 /* Build configuration list for PBXProject "Demo" */ = {
+		F95E80AC1F691C3D0080BB24 /* Build configuration list for PBXProject "仿淘宝进度条" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95E80DC1F691C3D0080BB24 /* Debug */,
@@ -510,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95E80DE1F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		F95E80DE1F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95E80DF1F691C3D0080BB24 /* Debug */,
@@ -519,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95E80E11F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+		F95E80E11F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95E80E21F691C3D0080BB24 /* Debug */,
@@ -528,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95E80E41F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
+		F95E80E41F691C3D0080BB24 /* Build configuration list for PBXNativeTarget "仿淘宝进度条UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F95E80E51F691C3D0080BB24 /* Debug */,

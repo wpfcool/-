@@ -7,17 +7,29 @@
 //
 
 #import "ViewController.h"
-
+#import "ProgressView.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet ProgressView *progressView;
 
+@property (strong, nonatomic) IBOutlet UISlider *slider;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    _progressView.leftText = @"已售80件";
+    _progressView.rightText  =@"80%";
+    _progressView.controlProgress = 0.8;
+    _progressView.contentText = @"即将售罄";
+    _progressView.progress = self.slider.value;
+    
 }
+- (IBAction)sliderChanged:(id)sender {
+      _progressView.progress = self.slider.value;
+}
+
 
 
 - (void)didReceiveMemoryWarning {
