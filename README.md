@@ -2,4 +2,4 @@
 
 ## 效果图：
 
-![a](http://github.com/wpfcool/taobaoprogress/raw/master/image/git.gif)
+![image](https://github.com/wpfcool/taobaoprogress/blob/master/image/git.gif)
